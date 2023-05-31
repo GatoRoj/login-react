@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  max-height: 599px;
+  justify-content: center;
+  border-radius: 15px;
+  height: 400px;
+  padding: 1rem;
+  background-color: #0e83cd;
+}

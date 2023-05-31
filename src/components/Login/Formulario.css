@@ -1,0 +1,35 @@
+.Formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin: 0.5em;
+  width: 70%;
+  outline: none;
+  border: 1px solid #e9e9ed;
+  padding: 0.4rem;
+  font-size: 20px;
+  border-radius: 0.3em;
+  align-items: start;
+}
+
+button {
+  margin: 0.5em;
+
+  width: 70%;
+  outline: none;
+  border: 1px solid #e9e9ed;
+  padding: 0.4rem;
+  font-size: 15px;
+  border-radius: 0.3em;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  text-align: start;
+  width: 70%;
+}
